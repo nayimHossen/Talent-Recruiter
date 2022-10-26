@@ -56,7 +56,8 @@ function App() {
                 <AdminPage />
               </AdminRouteProtect>
             </PrivateRoute>
-          }>
+          }
+        >
           <Route
             index
             element={
@@ -97,7 +98,8 @@ function App() {
                 <RecruiterPage />
               </RecruiterRouteProtect>
             </PrivateRoute>
-          }>
+          }
+        >
           <Route
             index
             element={
@@ -143,7 +145,8 @@ function App() {
                 <ApplicantPage />
               </ApplicantRouteProtect>
             </PrivateRoute>
-          }>
+          }
+        >
           <Route
             index
             element={
@@ -168,6 +171,7 @@ function App() {
 
         {/* public Page routes start */}
         <Route path="/" element={<HomePage />} />
+        <Route path="/home" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/jobs" element={<JobPage />} />
         <Route path="/job/:id" element={<JobDetails />} />
