@@ -17,7 +17,6 @@ const RecruiterSidebar = () => {
     <>
       <ul className="menu p-4 overflow-y-auto w-60 bg-[#d0ffce] text-base-content">
         {/* <!-- Sidebar content here --> */}
-
         <li>
           <Link
             to="job/post"
@@ -38,7 +37,7 @@ const RecruiterSidebar = () => {
         </li>
         <li>
           <Link
-            to="recruiter"
+            to="recruiter-profile"
             className="flex items-center my-1 px-4 py-3 text-black font-bold border-l-4 border-transparent hover:border-secondary hover:bg-gray-300 transition"
           >
             <FaUserTie className="w-5" />
